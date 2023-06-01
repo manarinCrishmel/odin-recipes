@@ -7,17 +7,32 @@ body {
     line-height: 1.5rem;
 }
 .container {
+    margin: 5rem auto;
     width: min(70ch, 100% - 4rem);
-    margin-inline: auto;
 }
 img  {
     max-width: 80%;
     display: block;
+    border-radius: 5px;
+    margin-inline: auto;
 }
 a {
     text-decoration: none;
     color: black;
 }
-h1:hover, a:hover {
-    color: cyan;
+a:hover {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+}
+.flex-container{
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: linear-gradient(rgba(231, 121, 121, 0.705), rgb(114, 208, 252, 0.7));
+    padding: 10px 20px;
+}
+.recipeCard {
+    width: 33%;
+    text-align: center;
 }
